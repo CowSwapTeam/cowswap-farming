@@ -1,6 +1,6 @@
 # CowSwap Farming
 
-The smart contracts stay the same and have been [audited by TechRate](https://github.com/TechRate/Smart-Contract-Audits/blob/main/October/MuesliSwap.pdf).
+MuesliSwap smartBCH has been renamed to CowSwap. The smart contracts stay the same and have been [audited by TechRate](https://github.com/TechRate/Smart-Contract-Audits/blob/main/October/MuesliSwap.pdf).
 
 This repository contains the Farming contracts used by MuesliSwap. Liquidity pools are initialized and added as a staking token to the MasterFarmer contract. This MasterFarmer contract is also in control of the number of minted $Milk per block. As users stake LP and other tokens, the MasterFarmer distributes them according to the weight of rewards of a specific pool along with an accounts stake in that pool.
 
